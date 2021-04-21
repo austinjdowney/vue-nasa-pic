@@ -1,17 +1,19 @@
 <template>
-  <h1 class="text-center">NASA</h1>
+  <h1 class="text-center">
+    NASAaaa
+  </h1>
   <HomePage />
 </template>
 <!-- update template (<example/>), import, component to new page-->
 <script>
-  import HomePage from "./Pages/HomePage.vue";
+import HomePage from './Pages/HomePage.vue'
 
-  export default {
-    name: 'App',
-    components: {
-      HomePage
-    }
+export default {
+  name: 'App',
+  components: {
+    HomePage
   }
+}
 </script>
 
 <style>
